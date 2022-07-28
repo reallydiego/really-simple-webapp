@@ -2,6 +2,18 @@
 
 Simple web application built with React, Typescript and Tailwind CSS.
 
+## NVM
+
+This project uses `nvm` to set up the correct version of Node.js and NPM.
+
+
+From the project's root issue the following commands:
+
+```sh
+nvm install # First time only
+nvm use
+```
+
 ## Docker
 
 To help development this project supports Docker. Use the following commands to get started.
@@ -13,6 +25,12 @@ docker build -t simple-project .
 # To run the project
 docker run -v $PWD:/opt/simple -p 3000:3000 simple-project
 ```
+
+## Dependencies
+
+This project uses the following stack:
+
+TypeScript, Tailwind CSS, twin.macro, styled-components
 
 ## Create React App
 
