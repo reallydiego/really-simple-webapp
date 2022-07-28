@@ -1,0 +1,5 @@
+# Example user-specific git configuration
+
+[user]
+  name = Your Name
+  email = you@yourcompany.com

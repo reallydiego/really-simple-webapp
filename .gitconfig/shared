@@ -1,0 +1,11 @@
+# Shared git configuration
+#
+# Include the shared config file:
+#
+#     git config include.path ../.gitconfig/shared
+#
+
+[commit]
+	gpgsign = false
+[include]
+  path = user
